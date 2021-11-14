@@ -7,5 +7,5 @@ const jobSchema = mongoose.Schema({
   company: { type: String, require: true },
 });
 
-const Job = mongoose.model("jon", jobSchema);
+const Job = mongoose.model("job", jobSchema);
 module.exports = Job;

@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/jobs", jobsController);
 
-app.listen(8080, async function () {
+app.listen(8001, async function () {
   await connect();
-  console.log("Listening to Port 8080");
+  console.log("Listening to Port 8001");
 });

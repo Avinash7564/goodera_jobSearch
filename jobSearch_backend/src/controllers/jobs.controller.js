@@ -10,6 +10,7 @@ router.get("", async (req, res) => {
     res.status(500).json({ error: error });
   }
 });
+
 router.get("/:id", async (req, res) => {
   try {
     const data = await Job.findById(req.params.id);

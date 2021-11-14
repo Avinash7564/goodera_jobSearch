@@ -1,8 +1,7 @@
 import React from 'react'
 import styles from "./Hero.module.css"
 
-const JobCard = (props) => {
-    const { description, title, _id } = props
+const JobCard = ({description, title}) => {
     
 
 
@@ -19,7 +18,7 @@ const JobCard = (props) => {
                 <p>
                     { description}
                 </p>
-                <button className={styles.cardButton }></button>
+                <button className={styles.cardButton }>View Deatils</button>
             </div>
         </div>
     )
