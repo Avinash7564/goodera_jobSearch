@@ -154,3 +154,38 @@
 .mainDiv {
   background: #e5e5e5;
 }
+.card {
+  width: 660px;
+  height: 200px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.carddiv1 {
+  width: 150px;
+  height: 150px;
+
+  background: #c4c4c4;
+  border-radius: 16px;
+}
+.carddiv2 {
+  display: flex;
+  flex-direction: column;
+}
+.cardButton {
+  float: right;
+  width: 87px;
+  height: 21px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #f07987;
+}

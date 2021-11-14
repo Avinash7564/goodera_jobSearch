@@ -1,8 +1,12 @@
 import React from 'react'
 import styles from "./Hero.module.css"
 import Search from './Search.jsx'
+import JobCard from './JobCard'
+
+
 
 function Hero() {
+    const [data, setData] = React.useState([])
     return (
         <div className={ styles.mainDiv}>
             <div className={ styles.HeroMainDiv}>
@@ -30,7 +34,13 @@ function Hero() {
                     
             </div>
 
-            <Search/>
+            <Search />
+            
+            <div>
+                {
+                    
+                }
+            </div>
 
         </div>
         
@@ -38,3 +48,4 @@ function Hero() {
 }
 
 export default Hero
+
