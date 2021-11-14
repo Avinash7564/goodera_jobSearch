@@ -1,0 +1,156 @@
+.HeroMainDiv {
+  width: 100vw;
+  height: 364px;
+
+  background: linear-gradient(274.83deg, #5db0df 0.58%, #5d7adf 74.3%);
+}
+.HeroNavBar {
+  width: 75%;
+  height: 50px;
+  margin-top: 30px;
+  margin: auto;
+}
+.HeroNavBardiv1 {
+  width: 40%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+.HeroNavBardiv2 {
+  width: 40%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+.HeroNavBardiv1button1 {
+  width: 79px;
+  height: 27px;
+  left: 171px;
+  top: 37px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+
+.HeroNavBardiv1button2 {
+  width: 98px;
+  height: 21px;
+  top: 41px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.HeroNavBardiv2button2 {
+  width: 98px;
+  height: 21px;
+  top: 41px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.Heroh1 {
+  text-align: left;
+  width: 511px;
+  height: 72px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height */
+
+  color: #ffffff;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+.Herosecond {
+  width: 75%;
+  margin: auto;
+}
+.Heroh2 {
+  position: absolute;
+  width: 654px;
+  height: 30px;
+  left: 143px;
+  top: 207px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  margin-left: 4.5%;
+  margin-top: -1%;
+}
+.serarchDiv {
+  width: 70%;
+  height: 80px;
+  margin: auto;
+  margin-top: -2.7%;
+  background: #ffffff;
+  box-shadow: 2px 12px 8px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: 38% 37% 25%;
+  padding: 10px;
+}
+.serarchDivSearch {
+  width: 280px;
+  height: 80px;
+  border: none;
+  background: #f07987;
+  border-radius: 8px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.serarchDivinput {
+  width: 156px;
+  height: 24px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7b7b7b;
+  width: 100%;
+  height: 100%;
+}
+.serarchDivinput input {
+  width: 100%;
+  height: 80%;
+  margin-left: 30px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.serarchDivinput input:focus {
+  outline: none;
+}
+.mainDiv {
+  background: #e5e5e5;
+}
