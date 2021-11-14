@@ -3,9 +3,11 @@ const app = express();
 const cors = require("cors");
 
 const connect = require("./configs/db");
+const jobsController = require("./controllers/jobs.controller");
 
 app.use(cors());
 app.use(express.json());
+app.use("/jobs", jobsController);
 
 app.listen(8080, async function () {
   await connect();
